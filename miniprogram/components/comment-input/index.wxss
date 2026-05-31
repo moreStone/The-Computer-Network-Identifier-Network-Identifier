@@ -1,0 +1,20 @@
+.comment-input {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-md);
+  background-color: var(--color-bg-primary);
+  border-top: 1rpx solid var(--color-border);
+}
+
+.comment-field {
+  flex: 1;
+  height: 72rpx;
+  padding: 0 var(--spacing-md);
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--radius-round);
+  font-size: var(--font-size-md);
+}
+
+.comment-btn {
+  margin-left: var(--spacing-sm);
+}

@@ -1,0 +1,19 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  height: 72rpx;
+  padding: 0 var(--spacing-md);
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--radius-round);
+  margin-bottom: var(--spacing-md);
+}
+
+.search-icon {
+  font-size: var(--font-size-lg);
+  margin-right: var(--spacing-sm);
+}
+
+.search-input {
+  flex: 1;
+  font-size: var(--font-size-md);
+}

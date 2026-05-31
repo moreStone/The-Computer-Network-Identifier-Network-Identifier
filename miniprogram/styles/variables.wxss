@@ -1,0 +1,41 @@
+page {
+  /* Colors */
+  --color-primary: #07c160;
+  --color-primary-dark: #06ad56;
+  --color-primary-light: #e8f8ee;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #666666;
+  --color-text-hint: #999999;
+  --color-text-disabled: #cccccc;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f5f5f5;
+  --color-bg-tertiary: #eeeeee;
+  --color-border: #e5e5e5;
+  --color-divider: #f0f0f0;
+  --color-danger: #fa5151;
+
+  /* Spacing */
+  --spacing-xs: 8rpx;
+  --spacing-sm: 12rpx;
+  --spacing-md: 16rpx;
+  --spacing-lg: 24rpx;
+  --spacing-xl: 32rpx;
+  --spacing-xxl: 48rpx;
+
+  /* Font */
+  --font-size-xs: 22rpx;
+  --font-size-sm: 26rpx;
+  --font-size-md: 28rpx;
+  --font-size-lg: 32rpx;
+  --font-size-xl: 36rpx;
+  --font-size-xxl: 44rpx;
+
+  /* Border Radius */
+  --radius-sm: 4rpx;
+  --radius-md: 8rpx;
+  --radius-lg: 12rpx;
+  --radius-round: 9999rpx;
+
+  /* Shadow */
+  --shadow-card: 0 2rpx 12rpx rgba(0, 0, 0, 0.06);
+}

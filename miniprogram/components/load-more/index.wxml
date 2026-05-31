@@ -1,0 +1,6 @@
+<view class="load-more">
+  <text wx:if="{{state === LOAD_MORE_STATE.LOADING}}">加载中...</text>
+  <text wx:elif="{{state === LOAD_MORE_STATE.NO_MORE}}">没有更多了</text>
+  <text wx:elif="{{state === LOAD_MORE_STATE.HAS_MORE}}" bind:tap="onRetry">点击加载更多</text>
+  <text wx:elif="{{state === LOAD_MORE_STATE.ERROR}}" bind:tap="onRetry">加载失败，点击重试</text>
+</view>

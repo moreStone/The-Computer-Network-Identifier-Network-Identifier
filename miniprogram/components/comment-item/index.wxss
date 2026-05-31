@@ -1,0 +1,24 @@
+.comment-item {
+  padding: var(--spacing-md);
+  border-bottom: 1rpx solid var(--color-divider);
+}
+
+.comment-meta {
+  margin-bottom: var(--spacing-xs);
+}
+
+.comment-author {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+}
+
+.comment-time {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-hint);
+}
+
+.comment-content {
+  font-size: var(--font-size-md);
+  color: var(--color-text-primary);
+  line-height: 1.6;
+}

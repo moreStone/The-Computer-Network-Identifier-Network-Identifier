@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "博客",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "article-card": "/components/article-card/index",
+    "empty-state": "/components/empty-state/index",
+    "load-more": "/components/load-more/index"
+  }
+}

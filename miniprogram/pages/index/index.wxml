@@ -1,0 +1,9 @@
+<view class="page-container">
+  <block wx:for="{{articles}}" wx:key="_id">
+    <article-card article="{{item}}" />
+  </block>
+
+  <empty-state wx:if="{{state === 'empty'}}" text="暂无文章" />
+
+  <load-more state="{{loadMoreState}}" bind:retry="loadArticles" />
+</view>
