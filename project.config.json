@@ -23,11 +23,18 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "useCompilerPlugins": false
+    "useCompilerPlugins": false,
+    "disableUseStrict": false
   },
   "compileType": "miniprogram",
   "libVersion": "3.6.0",
-  "appid": "wx_your_appid_here",
+  "appid": "touristappid",
   "projectname": "personal-blog",
-  "condition": {}
+  "condition": {},
+  "simulatorPluginLibVersion": {},
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {}
 }
