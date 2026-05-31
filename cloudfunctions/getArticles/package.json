@@ -1,0 +1,9 @@
+{
+  "name": "getArticles",
+  "version": "1.0.0",
+  "description": "Get paginated article list",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "latest"
+  }
+}
