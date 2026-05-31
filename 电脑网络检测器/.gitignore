@@ -1,0 +1,14 @@
+# 编译输出
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Claude
+.claude/
+
+# 系统文件
+Thumbs.db
+*.tmp
