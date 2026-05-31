@@ -4,7 +4,8 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(chmod +x .husky/pre-commit .husky/commit-msg)",
-      "Bash(npx jest *)"
+      "Bash(npx jest *)",
+      "Bash(gh pr *)"
     ]
   }
 }
