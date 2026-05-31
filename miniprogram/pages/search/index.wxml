@@ -1,8 +1,0 @@
-<view class="page-container">
-  <search-bar autofocus value="{{keyword}}" bind:search="onSearch" />
-
-  <block wx:if="{{searched && !loading}}">
-    <article-card wx:for="{{results}}" wx:key="_id" article="{{item}}" />
-    <empty-state wx:if="{{!results.length}}" text="未找到相关文章" />
-  </block>
-</view>

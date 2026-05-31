@@ -1,8 +1,0 @@
-<view class="page-container" wx:if="{{about}}">
-  <view class="about-header">
-    <image class="about-avatar" src="{{about.avatar}}" mode="aspectFill" />
-  </view>
-  <view class="about-body">
-    <rich-text nodes="{{about.content}}" />
-  </view>
-</view>

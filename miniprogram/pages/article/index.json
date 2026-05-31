@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "文章详情",
-  "usingComponents": {
-    "comment-item": "/components/comment-item/index",
-    "comment-input": "/components/comment-input/index",
-    "empty-state": "/components/empty-state/index"
-  }
-}

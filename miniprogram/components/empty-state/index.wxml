@@ -1,4 +1,0 @@
-<view class="empty-state">
-  <image class="empty-image" src="{{image}}" mode="aspectFit" wx:if="{{image}}" />
-  <text class="empty-text">{{text}}</text>
-</view>

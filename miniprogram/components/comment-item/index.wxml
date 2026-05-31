@@ -1,7 +1,0 @@
-<view class="comment-item" wx:if="{{comment}}">
-  <view class="comment-meta flex-between">
-    <text class="comment-author">{{comment._openid}}</text>
-    <text class="comment-time">{{comment.createTime}}</text>
-  </view>
-  <view class="comment-content">{{comment.content}}</view>
-</view>
