@@ -19,6 +19,7 @@ module.exports = {
       statements: 70,
     },
   },
+  setupFiles: ['<rootDir>/tests/setup/unit-setup.js'],
   moduleNameMapper: {
     '^@/utils/(.*)$': '<rootDir>/miniprogram/utils/$1',
     '^@/services/(.*)$': '<rootDir>/miniprogram/services/$1',
